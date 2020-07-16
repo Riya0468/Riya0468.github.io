@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="Welcome to My Website">
+	<meta author="Riya">  
+	<title>My Website | WELCOME</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<header>
+		<!-- container class which contains the navigation bar -->
+		<div class="container">
+			<div id="branding">
+				<h1><span class="highlight">Riya Shrestha</span></h1>
+			</div>
+			<nav>
+				<ul>
+					<li class="current"><a href="index.html">Home</a></li>
+					<li><a href="CV.html">C.V.</a></li>
+					<li><a href="Blog.html">Blog</a></li>
+					<li><a href="Research.html">Research</a></li>
+					<li><a href="Contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section id="showcase">
+		<div class="container">
+			<h1>Welcome to My Website</h1>
+			<p>Believe in Never Giving Up!</p>
+		</div>
+	</section>
+
+	<section id="box">
+		<div class="container">
+			<h2>Why to choose me..??</h2>
+		</div>
+	</section>
+
+	<section id="boxes">
+		<div class="container">
+			<div class="box">
+			<div class="dark">
+				<h3>Software Developer</h3>
+				<p>I have experience related to programming and have been debugging many problems. I have developed some softwares and also have been giving basics programming classes to the students. I am very fond of programming and still am eager to learn new topics related programming.
+				</p>
+			</div>
+			</div>
+			<div class="box">
+			<div class="dark">
+				<h3>Web Developer</h3>
+				<p>I have experience related to web designing and have been designing since two years. I have designed some good websites for reputed industries and organizations and also have been giving basics web designing classes to the students.</p>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- footer -->
+	<footer id="Name">
+		<!-- for dynamic change feature -->
+		<script>
+			setInterval(
+				function () {
+					var randomColor = Math.floor(Math.random()*16777215).toString(16);
+					document.getElementById('Name').style.backgroundColor = "#"+randomColor;
+				},1000);
+		</script>
+		<div>
+			<p><ins>For further details:</ins>
+			</p>
+			<p>
+				E-mail: reeya0468@gmail.com
+			</p>
+			<p>
+				&copy copyright| Riya Shrestha
+			</p>
+		</div>
+		<a href="https://www.facebook.com/rio.stha.587" style="color: #ffffff;">FIND ME ON FACEBOOK</a><br><br>
+		<a href="https://www.instagram.com/newarni_reeya/" style="color: #ffffff;">FOLLOW ME ON INSTAGRAM</a>
+	</footer>
+</body>
+</html> 

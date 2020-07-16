@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="Welcome to My Website">  
+	<title>My Website | CONTACT</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<header>
+		<!-- container class which contains the navigation bar -->
+		<div class="container">
+			<div id="branding">
+				<h1><span class="highlight">Riya Shrestha</span></h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="CV.html">C.V.</a></li>
+					<li><a href="Blog.html">Blog</a></li>
+					<li><a href="Research.html">Research</a></li>
+					<li class="current"><a href="Contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section id="contact">
+		<div class="phone">
+				<h1 class="page-title">Any help needed..??</h1>
+				<h2 class="drop">Contact Me!</h2>
+		</div>
+	</section>
+	<section id="call">
+		<div class="silence">
+			<!-- noise class that contains my details -->
+			<div class="noise">
+				<h1>My Details</h1>
+					<b><ul>Name: Riya Shrestha</ul>
+					<ul>Gender: Female</ul>
+					<ul>Address: Dharan, Province-1</ul>
+					<ul>Contact number: +977 9811385292</ul>
+					<ul>E-mail: reeya0468@gmail.com</ul></b>
+					<br>
+					<img src="../portfolio/img/is22.jpg" width="500px;">
+			</div>
+			<div class="crowd">
+				<h1>Your Information</h1>
+				<!-- form -->
+				<form onsubmit="validateForm()" name="messageForm" >
+		         Firstname:<input type="text" placeholder="your firstname.." name="fname" style="padding: 12px" >
+		         <br><br>
+		         Lastname: 
+		         <input type="text" placeholder="your Lastname.." name="lname" style="padding: 12px">
+		         <br><br>
+		         Address: <input type="text" placeholder="your address.." name="address" style="padding: 12px; margin-left: 20px">
+		         <br><br>
+		         <div style="margin-left: -200px;">feedback:</div><div><input type="text" placeholder="feedback.." name="feedback" style="height: 150px; margin-left:110px; padding: 15px;">
+		         </div>
+		         <br><br>
+		         <input type="submit" name="Submit" >
+		         </form>				
+			</div>
+		</div>
+	</section>
+</body>
+	<!-- footer -->
+	<footer>
+		<div>
+			<p><ins>For further details:</ins>
+			</p>
+			<p>
+				E-mail: reeya0468@gmail.com
+			</p>
+			<p>
+				&copy copyright| Riya Shrestha
+			</p>
+		</div>
+		<a href="https://www.facebook.com/rio.stha.587">CONNECT WITH ME ON FACEBOOK</a><br><br>
+		<a href="https://www.instagram.com/newarni_reeya/">CONNECT WITH ME ON INSTAGRAM</a>
+	</footer>
+	<script type="text/javascript">
+  // javascript for the form
+  function validateForm() {
+    var fname = document.forms["messageForm"]["fname"].value;
+    var lname = document.forms["messageForm"]["lname"].value;
+    var address = document.forms["messageForm"]["address"].value;
+    var feedback = document.forms["messageForm"]["feedback"].value;
+  	  // alert message will be displayed if any of the field is empty 
+    if (fname =="" ||lname =="" ||address =="" ||feedback =="") {
+      alert("Please fill the field");
+    }else{
+      
+      alert("Thank you");
+      
+    }
+  }
+  
+</script>
+</html>
