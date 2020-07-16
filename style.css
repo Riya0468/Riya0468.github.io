@@ -1,0 +1,360 @@
+/*Global **/
+body{
+	font-family: Arial, New Times Roman, Helvetica;
+	font-size: 15px;
+	line-height: 1.5;
+	padding:0;
+	margin: 0;
+	background-color: #CCD1D1;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{
+	margin:0;
+	padding: 0; 
+}
+
+.dark{
+	padding: 10px;
+	background: #000000;
+	color: #ffffff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*Header **/
+header{
+	background: #17202A;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: #17202A;
+	font-size: 20px;
+}
+
+header a{
+	color: #ffffff
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 10px 20px 10px 20px;
+}
+
+header #branding{
+	float: left;
+	margin: 0px;
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+header .highlight, header .current a{
+	color: #F39C12;
+	font-weight: bold;
+}
+
+header a:hover {
+	color: #cccccc;
+	font-weight: bold;
+}
+
+/*Footer */
+footer{
+	padding-top: 1px;
+	padding-bottom: 1px;
+	background: #17202A;
+	text-align: center;
+	color: #ffffff;
+}
+
+/*Only for Home Page **/
+/* Showcase */
+#showcase{
+	min-height: 600px;
+	background:url('../img/is5.jpg') no-repeat 0;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	color: #D2B4DE;
+}
+
+#showcase h1{
+	margin-top: 5px;
+	font-size: 60px;
+	margin-bottom:10px;
+}
+
+#showcase p{
+	font-size: 30px;
+	text-align: right;
+	font-style: italic;
+	color: #F7DC6F;
+}
+
+/*Box */
+#box h2{
+	padding: 0;
+	color: #ffffff;
+	background: #17202A;
+	text-align: center;
+}
+
+/*Boxes */
+
+#boxes{
+	margin-top: 5px;
+}
+
+#boxes .box{
+	border-style: solid;
+	border-color: black;
+	float: left;
+	text-align: center;
+	width: 40%;
+	padding: 40px;
+}
+
+#boxes .box img{
+	width: 90px;
+}
+/*CSS for Home Page ends **/
+
+/*Only for C.V.**/
+/*Sidebar*/
+aside#sidebar1{
+	float: right;
+	width: 40%;
+	padding: 0;
+}
+
+aside#sidebar2{
+	float: right;
+	width: 40%;
+	padding: 0;
+	overflow: auto;
+}
+
+aside#sidebar3{
+	float: right;
+	width: 40%;
+	padding: 0;
+	overflow: auto;
+}
+
+aside#sidebar4{
+	float: right;
+	width: 40%;
+	padding: 0;
+	overflow: auto;
+}
+
+#abc .image{
+	float: left;
+	overflow: auto;
+}
+
+
+#main-col{
+	border-style: solid;
+	border-color: black;
+	float: center;
+	text-align: center;
+	padding: 0;
+	font-size: 30px;
+	background-color: #000000;
+	color: #ffffff;
+}
+
+#main .page-title{
+	text-transform: uppercase;
+	text-align: center;
+	float: center;
+}
+/*CSS For CV ends**/
+
+/*Only for Blog**/
+#show .case{
+	background:url('../img/is12.jpg') no-repeat 0;
+	min-height: 1100px;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	color: #D2B4DE;
+}
+
+#show .details{
+	border-style: solid;
+}
+
+#show .one{
+	float: left;
+	width: 33%;
+	height: 40%;
+}
+
+#show .two{
+	float: left;
+	width: 32%;
+	height: 40%;
+}
+
+#show .three{
+	float: right;
+	width: 33%;
+	height: 40%;
+}
+
+#next .second-all{
+	display: flex;
+	flex: 80%;
+	margin: 10px;
+  	padding: 20px;
+	flex-direction: row;
+	justify-content: center;
+	width: 90%;
+	align-content: space-between;
+}
+/*CSS for Blog ends**/
+
+/**Only for contact**/
+#Type .tip{
+	background:url('../img/is12.jpg') no-repeat 0;
+	min-height: 1100px;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	color: #D2B4DE;
+}
+
+#contact .drop{
+	min-height: 500px;
+	background:url('../img/is21.jpg') no-repeat 0;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	color: #000000;
+	font-size: 50px;
+}
+
+#contact .phone{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#call .silence{
+	display: flex;
+	flex: 80%;
+	margin: 40px;
+  	padding: 40px;
+	flex-direction: row;
+	justify-content: center;
+	width: 90%;
+	align-content: space-between;
+	border-style: solid;
+	border-color: #000000;
+}
+
+#call .noise{
+	flex: 1;
+}
+
+#call .noise{
+	font-size: 20px;
+}
+
+#call .crowd{
+	font-size: 20px;
+}
+
+#call .silence{
+	background:url('../img/is12.jpg') no-repeat 0;
+	min-height: 100px;
+	background-size: cover;
+	text-align: center;
+	color: #D2B4DE;
+}
+/*CSS for Contact ends**/
+
+/*Only for Research**/
+#learn .case{
+	background:url('../img/is12.jpg') no-repeat 0;
+	min-height: 1300px;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	color: #D2B4DE;
+}
+
+#learn .app{
+	float: left;
+}
+
+#learn .one{
+	float: left;
+	width: 100%;
+	height: 40%;
+}
+
+#learn .appl{
+	float: right;
+}
+
+#learn .two{
+	float: right;
+	width: 100%;
+	height: 40%;
+}
+
+#learn .apple{
+	float: left;
+}
+
+#learn .three{
+	float: left;
+}
+
+#learn .apples{
+	float: right;
+}
+
+#learn .four{
+	float: right;
+	width: 100%;
+	height: 40%;
+}
+
+#learn .appless{
+	float: left;
+}
+
+#learn .five{
+	float: right;
+	width: 100%;
+	height: 40%;
+}
+/*CSS for Research ends**/
+
+/*Media Queries */
+@media(max-width: 768px){
+	header #branding,
+	header nav,
+	header nav li{
+		float: none;
+		text-align: center;
+		width: 100%
+	}
+}
